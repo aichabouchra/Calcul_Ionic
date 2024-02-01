@@ -24,3 +24,45 @@
 @import "@ionic/angular/css/text-alignment.css";
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
+
+div{
+    text-align: center;
+}
+
+.custom-image {
+    max-width: 100%; /* Assurez-vous que l'image ne dépasse pas la largeur de son conteneur */
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.custom-container {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.custom-input {
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.custom-button {
+    background-color: #B57F68;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.custom-button:hover {
+    background-color: #b79180;
+}
+
+#resultat{
+    color: #B57F68;
+    font-size: 30px;
+    font-weight: bold;
+}
+

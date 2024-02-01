@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 3
+      Multiplication Page
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,9 +9,22 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
+      <ion-title size="large">Multiplication Page</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+  <ion-img src="/assets/images/calcul.png" class="custom-image"></ion-img>
+  
+  <p>Welcome to Calcul Application!</p>
+
+  <div id="Addition" class="custom-container">
+    <ion-input type="number" [(ngModel)]="op1" class="custom-input" />
+    <ion-input type="number" [(ngModel)]="op2" class="custom-input" />
+    <button (click)="multiplication()" class="custom-button">Multiplication</button>
+  </div>
+
+  <div id="resultat">
+    {{resultat}}
+  </div>
+
 </ion-content>
